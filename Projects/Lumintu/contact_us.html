@@ -30,28 +30,31 @@
     <header class="top-header">
         <nav class="navbar">
             <div class="container">
-                <a class="navbar_left" href="./Home.html">
+                <a class="navbar_left" href="./index.html">
                     <img src="./assets/images/logo.svg" alt="Lumintu logo">
                 </a>
                 <div class="navbar_right">
-                    <ul>
-                        <li><a href="./lumintu.html" title="click to home page">Home</a></li>
-                        <li><a href="./about_us.html" title="click to about us page">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Page</a></li>
-                        <li><a href="./contact_us.html" tittle="click to contact us page">Contact Us</a></li>
-                    </ul>
-                    <button type="button">Get Started</button>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html" title="click to home page">Home</a></li>
+                            <li><a href="./about_us.html" title="click to about us page">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="./contact_us.html" tittle="click to contact us page">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#">Get Started</a>
                 </div>
             </div>
         </nav>
     </header>
+
     <main>
         <section class="about-section">
             <div class="container">
                 <div class="about-title">
                     <span class="line"></span>
-                    <h2>Contact Us</h2>
+                    <h1>Contact Us</h1>
                 </div>
 
                 <p class="about-text">
@@ -61,43 +64,50 @@
                 </p>
             </div>
         </section>
-        <section class="Get Started">
+         <section class="get-in-touch">
             <div class="container">
+                <div class="touch-left-wrapper">
                 <div class="section-heading">
-                    <div class="subtitle">Get Started</div>
-                    <h3 class="section-title">Get Protected Now: Act with Lumintu Insurance</h3>
+                    <div class="subtitle">
+                        <span>GET IN TOUCH</span>
+                    </div>
+                    <h2 class="section-title">Get Protected Now: Act with Lumintu Insurance</h2>
                 </div>
                 <h3>Contact Info</h3>
                 <ul type="None">
                     <li><img src="./assets/images/call-Icon-1.svg" alt="call icon">
-                        <h3>Phone Number</h3><a href="tell:(555) 555-5555" aria-label="click to call">(555) 555-5555</a>
+                        <h4>Phone Number</h4>
+                        <a href="tell:(555) 555-5555" aria-label="click to call">(555) 555-5555</a>
                     </li>
                     <li><img src="./assets/images/location-Icon-2.svg" alt="location icon">
-                        <h3>Physical Address</h3>
+                        <h4>Physical Address</h4>
                         <address>123 Main St. Anytown, USA</address>
                     </li>
                     <li><img src="./assets/images/mail-Icon-3.svg" aria-lable="click to email" alt="email icon">
-                        <h3>Email Address</h3><a href="mailto:info@lumintu.com">info@lumintu.com</a>
+                        <h4>Email Address</h4>
+                        <a href="mailto:info@lumintu.com">info@lumintu.com</a>
                     </li>
                 </ul>
+                </div>
             </div>
-            <div class="get-started-right">
-                <form action="4">
-                    <div class="get-started-form-field">
+
+            <div class="touch-right">
+                <form action="#" id="personal form">
+                    <div class="touch-form-field">
                         <label for="name">
-                            <h3>Your Name</h3>
+                            <h5>Your Name</h5>
                         </label>
-                        <input type="text" name="name" required placeholder="Enter Your Name">
+                        <input type="name" name="name" required placeholder="Enter Your Name">
                     </div>
-                    <div class="get-started-form-field">
+                    <div class="touch-form-field">
                         <label for="email">
-                            <h3>Your Email</h3>
+                            <h5>Your Email</h5>
                         </label>
                         <input type="email" name="email" required placeholder="Enter Your Email">
                     </div>
-                    <div class="get-started-form-field">
+                    <div class="touch-form-field">
                         <label for="message">
-                            <h3>Your Message</h3>
+                            <h5>Your Message</h5>
                         </label>
                         <textarea name="get-atarted-message" required cols="34" rows="8" required
                             placeholder="Enter Your Message"></textarea>
@@ -113,25 +123,25 @@
                 <div class="fact_wrapper_rows">
                     <div class="fun_fact">
 
-                        <h2>34K +</h2>
+                        <p>34K +</p>
 
                         <p>Success Stories</p>
                     </div>
                     <div class="fun_fact">
 
-                        <h2>210 +</h2>
+                        <p>210K +</p>
 
                         <p>Professional Team</p>
                     </div>
                     <div class="fun_fact">
 
-                        <h2>54K +</h2>
+                        <a>54K +</a>
 
                         <p>Branches Nationalwide</p>
                     </div>
                     <div class="fun_fact">
 
-                        <h2>35K +</h2>
+                        <a>35K +</a>
 
                         <p>Worldwide Client</p>
                     </div>
@@ -142,8 +152,12 @@
         <section class="faqs">
             <div class="container">
                 <div class="section-heading-faqs">
-                    <div class="heading-faqs">FAQS</div>
-                    <h2>Answers to Your Questions</h2>
+                    <div class="subtitle">
+                        <span>FAQS</span>
+                    </div>
+                    <div class="heading">
+                        <h2>Answers to Your Questions</h2>
+                    </div>
                 </div>
                 <div class="faqs-box">
                     <div class="faqs-item open">
@@ -206,7 +220,7 @@
             <div class="container">
                 <div class="footer-Empowering-section">
                     <img src="./assets/images/logo.svg" alt="Lumintu logo" />
-                    <p class="footer-section-heading">Empowering Your Peace of Mind</p>
+                    <h2 class="heading">Empowering Your Peace of Mind</h2>
                     <p>Tellus tristique duis elementum nisl. Dui maecenas blandit cum a consectetur metus enim.</p>
                     <i class="fa-solid fa-phone" aria-label="call-icon"></i>
                     <a href="tel:+123 456 7891" aria-label="click to call">+123 456 7891</a>
@@ -215,7 +229,7 @@
                     <p class="footer-section-heading">Company</p>
                 </div>
                 <ul class="None">
-                    <li><a href="./lumintu.html">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a target="_blank" href="./about_us.html">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Events</a></li>
@@ -231,6 +245,9 @@
                 </ul>
             </div>
             <div class="footer-section-work-hour">
+                <div class="footer-title">
+                    <h6>Work Hours</h6>
+                </div>
                 <ul type="None">
                     <li>
                         <i class="fa-regular fa-clock" aria-label="clock-icon"></i>
